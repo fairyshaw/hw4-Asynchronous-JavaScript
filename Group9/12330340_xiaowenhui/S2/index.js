@@ -19,9 +19,7 @@ function Click() {
 
 /* The robot click buttons */
 function clickButton(i, list) {
-    //list[i].style.backgroundColor = "rgba(48, 63, 159, 1)";
-
-    unread = list[i].getElementsByClassName("unread");
+	unread = list[i].getElementsByClassName("unread");
     unread[0].style.visibility = "visible";
 
     getRandom(i, list);
